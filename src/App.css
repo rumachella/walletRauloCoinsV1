@@ -78,6 +78,23 @@ body {
   z-index: 2;
 }
 
+.forms-container.login .register-wrapper {
+  pointer-events: none;
+}
+
+.forms-container.register .login-wrapper {
+  pointer-events: none;
+}
+
+.forms-container.login .login-wrapper {
+  pointer-events: auto;
+}
+
+.forms-container.register .register-wrapper {
+  pointer-events: auto;
+}
+
+
 .brand-container {
   flex: 1;
   display: flex;
